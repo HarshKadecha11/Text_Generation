@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - AI Text Generator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="/">AI Text Generator</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="card shadow">
+                    <div class="card-header bg-light">
+                        <h1 class="text-center mb-0">About This Project</h1>
+                    </div>
+                    <div class="card-body">
+                        <h2>Text Generation with Neural Networks</h2>
+                        <p>
+                            This application demonstrates text generation capabilities using two different neural 
+                            network architectures:
+                        </p>
+                        
+                        <h3>LSTM Model</h3>
+                        <p>
+                            Long Short-Term Memory (LSTM) networks are a type of recurrent neural network (RNN) 
+                            that can learn long-term dependencies. This makes them particularly well-suited for 
+                            text generation tasks where understanding context is important.
+                        </p>
+                        <p>
+                            Our LSTM model processes text by understanding patterns in sequences of words, allowing 
+                            it to generate coherent text that follows grammatical rules and maintains context.
+                        </p>
+                        
+                        <h3>GPT-like Model</h3>
+                        <p>
+                            Generative Pre-trained Transformer (GPT) models represent the state-of-the-art in text 
+                            generation. These models use transformer architecture with self-attention mechanisms 
+                            to produce high-quality text.
+                        </p>
+                        <p>
+                            Our implementation is a simplified version inspired by GPT architecture, adapted to work 
+                            efficiently in a web application environment.
+                        </p>
+                        
+                        <h3>How It Works</h3>
+                        <p>
+                            When you provide a prompt, our models analyze the text and generate a continuation 
+                            based on patterns learned during training. The models consider:
+                        </p>
+                        <ul>
+                            <li>Word frequencies and common combinations</li>
+                            <li>Syntactic patterns and grammar</li>
+                            <li>Context and semantic relationships</li>
+                        </ul>
+                        
+                        <h3>Limitations</h3>
+                        <p>
+                            While our application demonstrates the capabilities of neural text generation, it has 
+                            some limitations:
+                        </p>
+                        <ul>
+                            <li>The models may sometimes produce repetitive or generic content</li>
+                            <li>Very specialized topics might not be handled as effectively</li>
+                            <li>The models don't truly "understand" text in the way humans do</li>
+                        </ul>
+                        
+                        <div class="alert alert-info mt-4">
+                            <h4>Note:</h4>
+                            <p>This is a demonstration project created for educational purposes. For production applications, 
+                            more sophisticated models and infrastructure would be recommended.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light py-4 mt-5">
+        <div class="container text-center">
+            <p>AI Text Generation Project &copy; 2023</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

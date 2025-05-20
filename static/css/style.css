@@ -1,0 +1,153 @@
+/* Main styles for AI Text Generator */
+/* Main styles for AI Text Generator */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    border: none;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 1.5rem;
+}
+
+.btn-primary {
+    background-color: #4a6ed0;
+    border-color: #4a6ed0;
+    padding: 0.6rem 1.5rem;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: #3a5bbf;
+    border-color: #3a5bbf;
+}
+
+textarea.form-control {
+    resize: vertical;
+    min-height: 100px;
+}
+
+#generated-text {
+    min-height: 150px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    line-height: 1.6;
+}
+
+footer {
+    border-top: 1px solid #dee2e6;
+}
+
+/* Animation for text generation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#result-container.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1.25rem;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    border: none;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 1.5rem;
+}
+
+.btn-primary {
+    background-color: #4a6ed0;
+    border-color: #4a6ed0;
+    padding: 0.6rem 1.5rem;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: #3a5bbf;
+    border-color: #3a5bbf;
+}
+
+textarea.form-control {
+    resize: vertical;
+    min-height: 100px;
+}
+
+#generated-text {
+    min-height: 150px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    line-height: 1.6;
+}
+
+footer {
+    border-top: 1px solid #dee2e6;
+}
+
+/* Animation for text generation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#result-container.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1.25rem;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+}
