@@ -52,4 +52,54 @@ TextGenius AI is a sophisticated web application that leverages advanced neural 
 5. **Access the web interface**
    - Open your browser and navigate to: http://localhost:5001
 
-## 🏗️ Architecture
+
+## 🔧 API Endpoints
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/` | GET | Main web interface |
+| `/about` | GET | About page with project information |
+| `/topics` | GET | Returns available specialized topics |
+| `/generate` | POST | Generate text based on prompt |
+| `/health` | GET | Simple health check endpoint |
+
+## 💡 Use Cases
+
+- **Content Creation**: Generate blog post drafts, creative writing prompts, or marketing copy
+- **Education**: Aid in learning how neural networks process and generate language
+- **Research**: Experiment with different prompts to understand AI text capabilities and limitations
+- **Brainstorming**: Overcome writer's block by generating new ideas around a topic
+
+## 🛠️ Advanced Configuration
+
+TextGenius AI can be customized beyond the default settings:
+
+- Modify port settings in `run.py`
+- Adjust model parameters in the respective model files
+- Extend the topic database by adding to the categories in the GPT model
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to improve TextGenius AI:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin amazing-feature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🔮 Future Enhancements
+
+- Fine-tuning capabilities for domain-specific text generation
+- Multi-language support
+- Text-to-speech integration for generated content
+- API keys for programmatic access
+- User accounts to save favorite prompts and generations
+
+---
+
+Built with ❤️ by [Your Name]
