@@ -101,5 +101,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - User accounts to save favorite prompts and generations
 
 ---
-
-Built with ❤️ by [Your Name]
